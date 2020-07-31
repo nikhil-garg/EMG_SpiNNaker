@@ -3,8 +3,7 @@
 
 # In[1]:
 
-
-from pyNN import brian
+import pyNN.spiNNaker as sim
 from pyNN.utility import get_simulator, init_logging, normalized_filename
 from pyNN.utility.plotting import Figure, Panel
 import numpy as np
@@ -27,9 +26,6 @@ rng = NumpyRNG(seed=seed, parallel_safe=True)
 
 
 # In[3]:
-
-
-sim = brian
 
 
 # In[4]:
